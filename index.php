@@ -11,10 +11,22 @@
 <button>SUBMIT</button>
    </form>
     <h1>Karter</h1>
+    
     <?php
-   echo "I thought i was the best but actually ";
-   $name = $_GET['person'];
-   echo $name. " Is the best in the world!";
+   echo
+
+//String
+$name = 'Coding is fun';
+//Integer
+$name = 20;
+
+//Float
+$name = 20.5784;
+//Boolean
+
+//Array
+$names = array("Karter", "Kiryu", "Kami");
+echo $names ['2'];
 
    ?>
    
