@@ -13,20 +13,40 @@
     <h1>Karter</h1>
     
     <?php
-   echo
+   // Video 8 Code (Aritmeic Operations)
+   echo 5+5;
+   echo 6%5;
+   echo 5**2;
+   //End Of Video 8 Code
 
-//String
-$name = 'Coding is fun';
-//Integer
-$name = 20;
+// Video 9 Code (Assigment Operators)
+$x = 100;
+$x += 20; 
+// End of Video 9 Code
 
-//Float
-$name = 20.5784;
-//Boolean
+//Video 10 Code (Comparsion Operations)
+$x = 10;
+$y = "10";
+if ($x == $y) {   // "===" checks for data type and same number value it is true//
+   echo "True!";
+}
+else {
+   echo "False";
+}
+//End of Video 10 Code
 
-//Array
-$names = array("Karter", "Kiryu", "Kami");
-echo $names ['2'];
+//Video 11 Code (Increment/Decrement Operators)
+$x = 10;
+echo $x--; // The postion for "++" and "--" matters, in the front it subtracts or adds one 
+echo $x;
+// End of Video 11 Code
+
+//Video 12 Code (Logical Operators)
+$x = 20;
+$y = 20;
+if ($x == $y or 1 == 1) { // "||" and "or" do the same function
+   echo "True";
+}
 
    ?>
    
