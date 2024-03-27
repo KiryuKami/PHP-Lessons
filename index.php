@@ -11,7 +11,8 @@
 <button>SUBMIT</button>
    </form>
     <h1>Karter</h1>
-    
+    <a href="calculator.php">calculator page</a>
+    <a href="calender.php">Calender</a>
     <?php
    // Video 8 Code (Aritmeic Operations)
    echo 5+5;
