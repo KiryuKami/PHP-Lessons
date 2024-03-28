@@ -6,18 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="">
+   <form>
    <input type="text" name = "num1" placeholder = "Number 1">
 <input type="text" name = "num2" placeholder = "Number 2">
 <select name ="operator">
-<option value="">None</option>
-<option value="">Add</option>
-<option value="">Subtract</option>
-<option value="">Multiply</option>
-<option value="">Divide</option>
+<option>None</option>
+<option>Add</option>
+<option>Subtract</option>
+<option>Multiply</option>
+<option>Divide</option>
 </select>
 <br>
-<button type ="submit" name ="submit" value = "submit">Calculate</button>
+<button type = "submit"  name ="submit" value = "submit">Calculate</button>
    </form>
     <p>the answer is:</p>
 
