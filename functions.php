@@ -1,5 +1,14 @@
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+ 
+</body>
+</html>
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,41 +22,20 @@
     include 'includes/header.php';
     ?>
        <?php
-//Video 17 
-$a = 1;
-while ($a < 5){
-   echo "Hi there<br>";
-   $a++;
-}
-// End Of Video 17
+       //User Functions
+      function newCalc($x){
+       $newnr = $x * 0.75;
+       echo "Here is 75% of what you wrote: ".$newnr;
+      }
+      
+      $x = 100;
+      newCalc($x);
+   echo "<br>";
+   $a = 10;
+   newCalc($a);
+   //End of User Functions
+      ?>
 
-//Video 18
-$b = 10;
-do{
-    echo "Hi There<br>";
-    $b++;
-}
-while ($b <= 5);
-//End of Video 18
-
-//Video 19
-
-for ($k = 1; $k <= 10; $k++){
-    echo "hi<br>";
-}
-
-//End of Video 19 Code//
-
-//Video 20 Code (Foreach Loop)//
-
-$array = array("Kiryu", "Kami", "Varan");
-
-foreach ($array as $loopdata){
-    echo "My name is" .$loopdata."<br>";
-}
-//End of Video 20 Code//
-
-    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
