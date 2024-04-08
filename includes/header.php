@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <nav class="navbar navbar-expand-lg bg-primary bunga">
 <div class="container-fluid bunga">
 <a class="navbar-brand" href="#">Navbar</a>
@@ -29,3 +31,12 @@
 </div>
 </div>
 </nav>
+<?php
+$_SESSION['username'] = "KiryuKami9x";
+echo $_SESSION ['username'];
+if (!isset($_SESSION['username'])) {
+  echo "You are not logged in!";
+} else {
+  echo "You are logged in!";
+}
+?>
