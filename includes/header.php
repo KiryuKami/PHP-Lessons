@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<nav class="navbar navbar-expand-lg bg-primary bunga">
+<nav class="navbar navbar-expand-lg bg-secondary bunga">
 <div class="container-fluid bunga">
 <a class="navbar-brand" href="#">Navbar</a>
 <button class="navbar-toggler bunga" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,18 @@ session_start();
   </ul>
 </div>
 </div>
+<div>
+  <form action="includes/login.inc.php" method = "post" >
+<input type="text" name = "mailuid" placeholder = "Username/E-mail...">
+<input type="password" name = "pwd" placeholder = "Password...">
+<button type = "submit" name = "login-submit">Login</button>
+  </form>
+ <a href="signup.php">Signup</a>
+ 
+ <form action="includes/logout.inc.php">
+ <button type = "submit" name = "logout-submit">Logout</button>
+ </form>
+</div>
 </nav>
 <?php
 $_SESSION['username'] = "KiryuKami9x";
@@ -40,3 +52,4 @@ if (!isset($_SESSION['username'])) {
   echo "You are logged in!";    
 }
 ?>
+

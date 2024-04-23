@@ -6,7 +6,7 @@
     <title>function</title>
 </head>
 <body>
- 
+
 </body>
 </html>
 <!doctype html>
@@ -20,6 +20,7 @@
   <body>
   <?php
     include 'includes/header.php';
+    
     ?>
        <?php
        //User Functions

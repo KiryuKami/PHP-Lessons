@@ -8,10 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
+   
     <?php
     include 'includes/header.php';
+    
     ?>
     <?php
+    
    // Video 8 Code (Aritmeic Operations)
    echo 5+5;
    echo 6%5;
@@ -48,7 +51,13 @@ if ($x == $y or 1 == 1) { // "||" and "or" do the same function
 }
 
    ?>
-   
+  <main>
+   <div class = "wrapper-main">
+      <section class = "section-default">
+      <p class = "login-status">you are logged out!</p>
+      <p class = "login-status">you are logged in!</p>
+      </section>
+   </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
