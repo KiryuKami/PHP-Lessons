@@ -37,7 +37,6 @@ session_start();
 <button type = "submit" name = "login-submit">Login</button>
   </form>
  <a href="signup.php">Signup</a>
- 
  <form action="includes/logout.inc.php">
  <button type = "submit" name = "logout-submit">Logout</button>
  </form>
